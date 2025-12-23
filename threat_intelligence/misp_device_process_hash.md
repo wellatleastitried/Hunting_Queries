@@ -3,9 +3,6 @@
 ## Description
 This query searches binaries that have been executed and compares them to file hashes pulled from MISP threat intelligence.
 
-## Risk
-Malicious binaries running on a system could lead to various impact, but it is important to be aware of in any case.
-
 ## Sentinel
 ```kql
 let daysago = now(-7d)
